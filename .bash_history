@@ -50,3 +50,31 @@ figlet "Welcome, Hacker!"
 neofetch
 cmatrix -a -b -u 10
 ssh -T git@github.com
+git init
+git add .
+git commit -m "Initial commit - project setup"
+git branch -M main
+git remote add origin git@github.com:username/repo.git
+git push -u origin main
+ssh -T git@github.com
+git init
+git add .
+git commit -m "Initial commit - project setup"
+git branch -M main
+git remote add origin git@github.com:Kumaran/repo.git
+git push -u origin main
+git remote -v
+git remote remove origin
+git remote add origin git@github.com:https://github.com/03112004/Face-Recognition-FL-SaaS.git
+ssh-add -l
+ssh-add ~/.ssh/id_ed25519
+ssh -T git@github.com
+git add .
+git commit -m "Initial commit - project setup"
+git push -u origin main
+git remote remove origin
+git remote add origin git@github.com:03112004/Face-Recognition-FL-SaaS.git
+git remote -v
+origin  git@github.com:03112004/Face-Recognition-FL-SaaS.git (fetch)  
+origin  git@github.com:03112004/Face-Recognition-FL-SaaS.git (push)  
+eval "$(ssh-agent -s)"
